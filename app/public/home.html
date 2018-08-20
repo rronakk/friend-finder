@@ -5,33 +5,39 @@
 	<title> Find Your Friend</title>
 
 	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
+	<nav class="navbar navbar-light bg-light">
+		<a class="navbar-brand" href="#">
+			<img src="images/1598px-Friends_logo.svg.png" width="300" height="30" class="d-inline-block align-top" alt="">
+		</a>
+		<a class="navbar-brand" href="#">
+				<img src="images/friend_mate.png" width="300" height="30" class="d-inline-block align-top" alt="">
+		</a>
 
-	<div class="container">
+	</nav>
 
-		<div class="jumbotron">
-			<h1 class="text-center"><span class="glyphicon glyphicon-fire"></span> Friend Finder</h1>
-			<hr>
-			<h2 class="text-center">Find your next compatible hotshot friend</h2>
-			<br>
 
-			<div class="text-center">
-				<a href="/survey"><button type="button" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-list-alt"></span> Answer Survey</button></a>
-			</div>
-
+	<div class="wrapper">
+		<div class="text-center">
+			<a href="/survey"><button type="button" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-list-alt"></span> Answer Survey</button></a>
 		</div>
-
-    <footer class="footer">
-      <div class="container">
-	        <p><a href="/api/friends">API Friends Link</a></p>
-      </div>
+	</div>
+	<div class="info-msg">
+			<div class="text-center">
+				<div>Answer Survey Questions, to Find your Match...</div>
+			</div>
+	</div>
+    <footer class="footer text-center">
+	    <p><i class="fab fa-github" id="github"></i><a href="/api/friends">API Friends Link</a>
+		</p>
     </footer>
 
 	</div>
-
 
 </body>
 </html>
